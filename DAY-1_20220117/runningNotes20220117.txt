@@ -1,0 +1,21 @@
+Agenda :
+
+Working with VCS / SCM :
+1. GUI Vendors 
+2. CUI Vendor 
+
+VCS /  SCM Workflow 
+
+Getting Started with Skilling & UpSkilling Journey with AWS DevOps :
+
+1. git 
+2. visual studio code 
+3. aws cli 
+4. GitLab : Account Creation
+5. AWS    : Account Creation
+6. Virtualisation Technologies :
+    - Oracle Virtualbox 
+    - Download, Install & Configure Linux Distribution :
+        - Ubuntu 
+    
+Q?
