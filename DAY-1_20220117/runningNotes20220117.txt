@@ -1,21 +1,53 @@
 Agenda :
 
 Working with VCS / SCM :
-1. GUI Vendors 
-2. CUI Vendor 
+1. GUI Vendors : 
+    - https://github.com/
+    - https://about.gitlab.com/
+    - https://bitbucket.org/
 
-VCS /  SCM Workflow 
+2. CUI Vendor : https://git-scm.com/
+
+
+VCS /  SCM Workflow  : 
+https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+https://education.github.com/git-cheat-sheet-education.pdf
+https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
 Getting Started with Skilling & UpSkilling Journey with AWS DevOps :
 
 1. git 
-2. visual studio code 
-3. aws cli 
+2. visual studio code : https://code.visualstudio.com/download
+3. aws cli : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 4. GitLab : Account Creation
-5. AWS    : Account Creation
+    - https://github.com/
+    - https://about.gitlab.com/
+    - https://bitbucket.org/
+
+5. AWS    : Account Creation :
+    https://aws.amazon.com/free
+
 6. Virtualisation Technologies :
-    - Oracle Virtualbox 
+    - Oracle Virtualbox  : https://www.virtualbox.org/
+
+Unix :
+Top 10 List of Unix Based Operating Systems
+Oracle Solaris Operating System.
+Darwin Operating System.
+IBM AIX Operating System.
+HP-UX Operating System.
+FreeBSD Operating System.
+NetBSD Operating System.
+Microsoft's SCO XENIX Operating System.
+SGI IRIX Operating System.
+
+Linux Distributions :
+https://en.wikipedia.org/wiki/List_of_Linux_distributions
+
+
     - Download, Install & Configure Linux Distribution :
-        - Ubuntu 
+        - Ubuntu : https://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release/
+        https://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release/ubuntu-20.04.1-legacy-server-arm64.iso
+        
     
 Q?

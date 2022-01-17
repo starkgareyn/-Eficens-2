@@ -1,0 +1,75 @@
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % pwd
+/Users/ck/repos/repos/awsdevops_20220117
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % ls -lrt
+total 16
+-rw-r--r--  1 cloudbinary  staff  7578 17 Jan 22:23 README.md
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % pwd
+/Users/ck/repos/repos/awsdevops_20220117
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git branch
+* main
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+cloudbinary@Clouds-MacBook-Pro DAY-1_20220117 % pwd
+/Users/ck/repos/repos/awsdevops_20220117/DAY-1_20220117
+cloudbinary@Clouds-MacBook-Pro DAY-1_20220117 % cd ../
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % pwd
+/Users/ck/repos/repos/awsdevops_20220117
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % ls -lrt
+total 16
+-rw-r--r--  1 cloudbinary  staff  7578 17 Jan 22:23 README.md
+drwxr-xr-x  3 cloudbinary  staff    96 17 Jan 22:30 DAY-1_20220117
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % ls -lrta
+total 24
+drwxr-xr-x  57 cloudbinary  staff  1824 17 Jan 22:23 ..
+-rw-r--r--   1 cloudbinary  staff   688 17 Jan 22:23 .gitlab-ci.yml
+-rw-r--r--   1 cloudbinary  staff  7578 17 Jan 22:23 README.md
+drwxr-xr-x  13 cloudbinary  staff   416 17 Jan 22:29 .git
+drwxr-xr-x   6 cloudbinary  staff   192 17 Jan 22:30 .
+drwxr-xr-x   3 cloudbinary  staff    96 17 Jan 22:30 DAY-1_20220117
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DAY-1_20220117/
+
+nothing added to commit but untracked files present (use "git add" to track)
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git add .
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   DAY-1_20220117/runningNotes20220117.txt
+
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git commit -m "Getting Started with VCS / SCM"
+[main e8772f1] Getting Started with VCS / SCM
+ 1 file changed, 21 insertions(+)
+ create mode 100644 DAY-1_20220117/runningNotes20220117.txt
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 658 bytes | 658.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://gitlab.com/cloudbinary/awsdevops_20220117.git
+   dfe0162..e8772f1  main -> main
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+cloudbinary@Clouds-MacBook-Pro awsdevops_20220117 % 
