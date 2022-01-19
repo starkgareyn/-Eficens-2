@@ -1,0 +1,19 @@
+Agenda :
+
+AWS :
+- Root User 
+- IAM User 
+    - Login to AWS Mgmt Console 
+    - Login to AWS Using Programatic 
+    
+
+
+Pending For Tomorrow :
+Download, Install & Configure OS part of Virtualisation :
+
+- Oracle Virtual Box --> Linux Distribution [ Ubuntu & 20.04 - Server [ CUI/CLI ]]
+
+- Convert CUI/CLI Server to GUI
+
+Q?
+

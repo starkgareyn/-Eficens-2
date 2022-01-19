@@ -47,6 +47,7 @@ https://en.wikipedia.org/wiki/List_of_Linux_distributions
 
     - Download, Install & Configure Linux Distribution :
         - Ubuntu : https://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release/
+        
         https://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release/ubuntu-20.04.1-legacy-server-arm64.iso
         
     
