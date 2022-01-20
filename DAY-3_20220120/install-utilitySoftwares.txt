@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+
+apt update 
+
+apt install git curl wget unzip -y 
+
+echo "Welcome To DevOps World" > /tmp/devops.txt 
+

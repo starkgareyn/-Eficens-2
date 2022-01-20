@@ -1,0 +1,16 @@
+Agenda :
+
+AWS :
+    - Compute :
+        - Instances :
+            - Operating Systems :
+                - Windows 
+                - Linux 
+
+                - Download, Install & Configure Softwares unto Linux & Windows 
+                - Web Server on Windows and Linux 
+
+                - GUI & CUI on AWS :
+                    - CUI : Shell Script 
+
+Q?
