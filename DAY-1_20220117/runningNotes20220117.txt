@@ -1,3 +1,5 @@
+DAY-1 : https://s3.amazonaws.com/eficens.awsdevops/DAY-1_20220117/zoom_0.mp4
+
 Agenda :
 
 Working with VCS / SCM :

@@ -1,3 +1,5 @@
+DAY-3 : https://s3.amazonaws.com/eficens.awsdevops/DAY-3_20220120/zoom_0.mp4
+
 Agenda :
 
 AWS :
