@@ -1,4 +1,4 @@
-DAY-4 :
+DAY-4 : https://s3.amazonaws.com/eficens.awsdevops/DAY-4_20220124/zoom_0.mp4
 
 Agenda :
 
