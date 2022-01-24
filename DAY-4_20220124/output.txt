@@ -1,0 +1,19 @@
++ aws ec2 run-instances --image-id ami-01f87c43e618bf8f0 --instance-type t2.micro --count 1 --subnet-id subnet-fa64cca0 --security-group-ids sg-0ab38acb31986250b --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=WebServer},{Key=Environment,Value=Development}]' --key-name aws_california --profile devops
+156779398815    r-0e2f4427a4896566f
+INSTANCES       0       x86_64  f373112e-997b-4495-95ae-2c0979da1064    False   True    xen     ami-01f87c43e618bf8f0   i-0c8756de2e46442c7     t2.micro
+        aws_california  2022-01-24T16:55:45+00:00       ip-172-31-5-206.us-west-1.compute.internal      172.31.5.206            /dev/sda1       ebs     True            subnet-fa64cca0 hvm     vpc-ee9a3788
+CAPACITYRESERVATIONSPECIFICATION        open
+CPUOPTIONS      1       1
+METADATAOPTIONS enabled 1       optional        pending
+MONITORING      disabled
+NETWORKINTERFACES               interface       06:fd:a6:10:b0:f9       eni-03c91bbc291ad6053   156779398815    ip-172-31-5-206.us-west-1.compute.internal
+      172.31.5.206    True    in-use  subnet-fa64cca0 vpc-ee9a3788
+ATTACHMENT      2022-01-24T16:55:45+00:00       eni-attach-01410454cd926bd6c    True    0       attaching
+GROUPS  sg-0ab38acb31986250b    sg_webdmz
+PRIVATEIPADDRESSES      True    ip-172-31-5-206.us-west-1.compute.internal      172.31.5.206
+PLACEMENT       us-west-1a              default
+SECURITYGROUPS  sg-0ab38acb31986250b    sg_webdmz
+STATE   0       pending
+STATEREASON     pending pending
+TAGS    Environment     Development
+TAGS    Name    WebServer
