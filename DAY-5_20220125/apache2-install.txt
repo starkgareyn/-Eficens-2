@@ -1,0 +1,34 @@
+#!/bin/bash 
+
+# Update Ubuntu Repository
+apt update 
+
+# Install Utility Softwares 
+apt install git curl wget unzip -y 
+
+# Setup New Hostname
+hostnamectl set-hostname "web.cloudbinary.io"
+
+# Configure New Hostname as part of /etc/hosts file 
+echo "`hostname -I | awk '{ print $1}'` `hostname`" >> /etc/hosts
+
+# Refresh the Terminal
+/bin/bash 
+
+# Update 
+apt update 
+
+# Install Apache2 
+apt install apache2 -y 
+
+# Go To OPT and Download the Source Code 
+cd /opt/
+
+# Clone Website Code From GitHub 
+git clone https://github.com/keshavkummari/keshavkummari.git
+
+# Go Inside the Repository
+cd keshavkummari
+
+# Move the Code To DocumentRoot
+mv * /var/www/html/

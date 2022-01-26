@@ -1,0 +1,14 @@
+Agenda :
+
+EC2 :
+    Instances :
+    - Linux :
+        - Ubuntu : Apache2 
+    - Windows : 
+        - IIS 
+
+    - Database : MySQL --> Linux 
+    - Application Server : Apache Tomcat 
+
+Q?
+
