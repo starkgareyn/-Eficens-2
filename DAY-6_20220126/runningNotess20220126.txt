@@ -1,3 +1,5 @@
+DAY-6 : https://s3.amazonaws.com/eficens.awsdevops/DAY-6_20220126/zoom_0.mp4
+
 Agenda :
 
 Launching :
