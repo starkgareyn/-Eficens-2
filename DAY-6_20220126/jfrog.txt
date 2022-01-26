@@ -1,0 +1,12 @@
+
+Continuous Binary Code Repository :
+
+    - Artifact/Package Management :
+        Vendors :
+            - Jfrog  : https://jfrog.com/artifactory/
+
+            - Nexus : https://www.sonatype.com/
+
+            - AWS CodeArtifact :
+
+            - AZURE Artifact : 

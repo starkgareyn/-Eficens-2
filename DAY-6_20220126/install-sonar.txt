@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Setup Hostname 
+hostnamectl set-hostname "sonarqube.cloudbinary.io"
+
+# Configure Hostname unto hosts file 
+echo "`hostname -I | awk '{ print $1}'` `hostname`" >> /etc/hosts 
+
+# Update Ubuntu Operating System Repository
+sudo apt-get update
+
+# Install Docker on Ubuntu Server 
+sudo apt-get install docker.io -y 
+
+# Download a Docker Image of Sonarqube 
+sudo docker pull sonarqube
+
+# check Downloaded Docker Image of Sonarqube
+sudo docker images
+
+# Create Docker volumes to store the SonarQube persistent data.
+docker volume create sonarqube-conf 
+docker volume create sonarqube-data
+docker volume create sonarqube-logs
+docker volume create sonarqube-extensions
+
+# Verify the persistent data directories.
+docker volume inspect sonarqube-conf 
+docker volume inspect sonarqube-data
+docker volume inspect sonarqube-logs
+docker volume inspect sonarqube-extensions
+
+# Optionally, create symbolic links to an easier access location.
+
+mkdir /sonarqube
+ln -s /var/lib/docker/volumes/sonarqube-conf/_data /sonarqube/conf
+ln -s /var/lib/docker/volumes/sonarqube-data/_data /sonarqube/data
+ln -s /var/lib/docker/volumes/sonarqube-logs/_data /sonarqube/logs
+ln -s /var/lib/docker/volumes/sonarqube-extensions/_data /sonarqube/extensions
+
+# Start a SonarQube container with persistent data storage.
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 -v sonarqube-conf:/opt/sonarqube/conf -v sonarqube-data:/opt/sonarqube/data -v sonarqube-logs:/opt/sonarqube/logs -v sonarqube-extensions:/opt/sonarqube/extensions sonarqube
+
+# Verify the containers status using the following command:
+# docker ps -a
+
+# Verify the status of a container.
+# docker ps -a -f name=sonarqube
+
+# To stop a container, use the following command:
+# docker container stop sonarqube
+
+# To start a container, use the following command:
+# docker container start sonarqube
+
+# To restart a container, use the following command:
+# docker container restart sonarqube
+
+# In case of error, use the following command to verify the container logs.
+# docker logs sonarqube

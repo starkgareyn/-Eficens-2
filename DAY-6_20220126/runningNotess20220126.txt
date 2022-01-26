@@ -1,0 +1,12 @@
+Agenda :
+
+Launching :
+    - Jenkins :
+    https://www.jenkins.io/
+
+    - Jfrog
+    - SonarQube
+
+Q?
+
+

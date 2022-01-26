@@ -1,0 +1,56 @@
+#-----------------------------------------------------------------#
+Continuous Integration :
+
+TeamCity
+Bamboo 
+GitLab CI 
+Buddy
+Travis CI
+Codeship
+Jenkins 
+CircleCI
+GoCD
+AWS CodeBuild & CodePipeline
+Azure Pipeline 
+
+#-----------------------------------------------------------------#
+Jenkins
+#-----------------------------------------------------------------#
+CI      : Jenkins 
+Version : 2.319.2 LTS
+Written : Java 
+License : MIT 
+Platform: Java8 & Java11
+Author  : Kohusuke Kawaguchi 
+
+
+Hardware and Software requirements  :
+
+Prerequisites :
+
+Minimum hardware requirements:
+
+256 MB of RAM
+
+1 GB of drive space
+
+Hardware: see the Hardware Recommendations page
+
+Software requirements:
+
+Java: see the Java Requirements page
+
+
+Debian/Ubuntu :
+
+# Add Jenkins Key To APT Command :
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+# Create a file unto apt directory and add jenkins url :
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+# Update Ubuntu Repository 
+sudo apt-get update
+
+# Install Jenkins 
+sudo apt-get install jenkins -y 
