@@ -1,3 +1,5 @@
+DAY-7 : https://s3.amazonaws.com/eficens.awsdevops/DAY-7_20220127/zoom_0.mp4
+
 Agenda :
 
 SonarQube
