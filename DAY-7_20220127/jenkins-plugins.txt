@@ -1,0 +1,32 @@
+Jenkins :
+    - Java Variable Configuration on Server and UI 
+    - Maven Variable Configuration on Server and UI 
+    - Plugins
+    - Creating Jenkins Jobs on UI  :
+
+MAVEN
+Maven is a build automation tool used primarily for Java projects. The word maven means 'accumulator of knowledge' in Yiddish. Maven addresses two aspects of building software: First it describes how software is built and second it describes its dependencies.
+
+Maven  LifeCycles :
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
+        - Validate
+        - Clean 
+        - Compile
+        - test
+        - package
+        - verify
+        - install
+        - deploy
+        - release
+
+Install Below Plugins on Jenkins :
+https://plugins.jenkins.io/conditional-buildstep/
+https://plugins.jenkins.io/deploy/
+https://plugins.jenkins.io/envinject/
+https://plugins.jenkins.io/git-parameter/
+https://plugins.jenkins.io/github-branch-pr-change-filter/
+https://plugins.jenkins.io/gitlab-branch-source/
+https://plugins.jenkins.io/maven-plugin/
+https://plugins.jenkins.io/maven-invoker-plugin/
+https://plugins.jenkins.io/publish-over-ssh/

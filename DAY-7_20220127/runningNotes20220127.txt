@@ -1,0 +1,18 @@
+Agenda :
+
+SonarQube
+
+Tomcat 
+
+CI/CD Pipeline Tools :
+    - GitLab
+    - Jenkins 
+    - SonarQube
+    - Jfrog
+    - Tomcat 
+    - Nagios
+    - Ansible 
+
+Q?
+
+
