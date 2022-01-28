@@ -1,3 +1,5 @@
+DAY-8 : https://s3.amazonaws.com/eficens.awsdevops/DAY-8_20220128/zoom_0.mp4
+
 Agenda :
 
 Application : 
