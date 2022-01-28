@@ -1,0 +1,52 @@
+Agenda :
+
+Application : 
+    - Programming / Server Side Programming : Java 
+        - Type Of Application : Web Application : Spring Boot [Web Framework]
+        - Build Tool : Maven 
+
+    - Client Side Programming : HTML, CSS & Java Script 
+    - Database : MySQL 
+
+VCS / SCM : GitLab : https://gitlab.com/cloudbinary/cb_java_code.git
+
+Repository : cb_java_code  
+
+Branch : master 
+
+Continuous Integration : Jenkins 
+
+    - Jobs :
+        - Static Code Analysis :
+            - SonarQube 
+                - sonar:sonar 
+        - Build Jobs :
+            - clean 
+            - validate
+            - compile
+            - test
+            - package
+            - install
+            - deploy
+
+
+
+POM.xml :
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=efdevops \
+  -Dsonar.host.url=http://54.215.186.13:9000 \
+  -Dsonar.login=5fcd1e2dcbc02cea682c8e0902bf936605bcc16c
+
+
+Jfrog Integration :
+
+POM.xml 
+
+Jenkins Server :
+
+/var/lib/jenkins/.m2
+
+1. settings.xml 
+2. settings-security.xml 
+

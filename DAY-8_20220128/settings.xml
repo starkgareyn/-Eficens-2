@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <profiles>
+    <profile>
+      <id>default</id>
+      <repositories>
+        <repository>
+          <id>efdevops-lib-snapshots</id>
+          <name>efdevops-lib-snapshots</name>
+          <url>http://52.53.171.20:8082/artifactory/efdevops-lib-snapshots/</url>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>default</activeProfile>
+  </activeProfiles>
+  <servers>
+    <server>
+      <id>efdevops-lib-snapshots</id>
+      <username>admin</username>
+      <password></password>
+    </server>
+  </servers>
+</settings>
