@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Update the Repository
+apt update 
+
+# Setup New Hostname
+hostnamectl set-hostname "nagiosxi.cloudbinary.io"
+
+# Configure New Hostname as part of /etc/hosts file 
+echo "`hostname -I | awk '{ print $1}'` `hostname`" >> /etc/hosts
+
+# Refresh the Terminal
+/bin/bash 
+
+# Download, & Install Utility Softwares 
+apt install git wget unzip curl tree -y 
+
+# Download a Shell Script and Execute
+curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sh

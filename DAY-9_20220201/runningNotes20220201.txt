@@ -1,0 +1,32 @@
+Agenda :
+
+Deploy a Source Code Unto Tomcat Using CI/CD Pipeline
+
+VCS/SCM :
+    - GitHub/GitLab
+
+Continuous Integration:
+    - Jenkins : 
+        - Jenkinsfile
+
+Continuous Static Code Analysis Tool:
+    - SonarQube
+
+Continuous Binary Code Repositor :
+    - Jfrog 
+
+Application Server :
+    - Tomcat
+
+Continuous Monitoring:
+    - Nagios
+
+Configuration Management :
+    - Ansible 
+Q?
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=eficens_devops1 \
+  -Dsonar.host.url=http://52.53.219.192:9000 \
+  -Dsonar.login=7ea5111805e5b01cde4db17b8499ce6cece9914d
+  
