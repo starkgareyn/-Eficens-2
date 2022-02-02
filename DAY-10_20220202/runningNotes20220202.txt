@@ -1,3 +1,5 @@
+DAY-10 : https://s3.amazonaws.com/eficens.awsdevops/DAY-10_20220202/zoom_0.mp4
+
 Agenda :
 
 Deploy a Source Code Unto Tomcat Using CI/CD Pipeline
