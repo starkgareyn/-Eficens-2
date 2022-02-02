@@ -1,0 +1,26 @@
+Agenda :
+
+Deploy a Source Code Unto Tomcat Using CI/CD Pipeline
+
+VCS/SCM :
+    - GitHub/GitLab
+
+Continuous Integration:
+    - Jenkins : 
+        - Jenkinsfile
+
+Continuous Static Code Analysis Tool:
+    - SonarQube
+
+Continuous Binary Code Repository :
+    - Jfrog 
+
+Application Server :
+    - Tomcat
+
+Continuous Monitoring:
+    - Nagios & NewRelic
+
+Configuration Management :
+    - Ansible 
+Q?
