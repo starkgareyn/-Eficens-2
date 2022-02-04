@@ -1,3 +1,5 @@
+DAY-11 : https://s3.amazonaws.com/eficens.awsdevops/DAY-11_20220204/zoom_0.mp4
+
 Agenda :
 
 Configuration Management :
