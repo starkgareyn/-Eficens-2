@@ -1,0 +1,12 @@
+---
+- name: Play-1 [ Configure Timezone ]
+  hosts: web ---> /etc/ansible/hosts
+  become: true 
+  tasks: 
+    - name: Update Ubuntu Repository
+      apt: update_cache=yes
+      ignore_errors: yes
+
+    - name: Configure Timezone 
+      command: timedatectl set-timezone Asia/Kolkata
+...

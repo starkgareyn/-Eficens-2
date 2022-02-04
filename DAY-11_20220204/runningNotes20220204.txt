@@ -1,0 +1,25 @@
+Agenda :
+
+Configuration Management :
+    - Ansible 
+
+        WebServer : Apache2 or Httpd or Nginx 
+        
+        Database Server : MySQL
+
+        Continuous Integration:
+            - Jenkins : 
+
+        Continuous Static Code Analysis Tool:
+            - SonarQube
+
+        Continuous Binary Code Repository :
+            - Jfrog 
+
+        Application Server :
+            - Tomcat
+
+        Continuous Monitoring:
+            - Nagios & NewRelic
+
+Q?
