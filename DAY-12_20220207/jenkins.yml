@@ -1,0 +1,61 @@
+---
+- name: Download, Install & Configure Jenkins
+  hosts: ci 
+  become: yes
+
+  vars:
+    date: "{{ lookup('pipe', 'date +%Y-%m-%d_%H-%M') }}"
+
+  tasks:
+    - name: Update the Ubuntu Operating System Local Repository
+      apt: update_cache=yes
+      ignore_errors: yes 
+      
+    - name: Install NTP Server
+      apt: name=ntp state=present
+
+    - name: Enable and Restart NTP Service
+      service: name=ntp state=restarted
+
+    - name: Set Timezone
+      command: timedatectl set-timezone America/New_York
+      
+    - name: Download, Install & Configure Java 11
+      apt: 
+       name: openjdk-11-jdk
+       state: present  
+
+    - name: Backup a ENV File 
+      copy: src=/etc/environment dest="/etc/environment_{{ date }}"
+ 
+    - lineinfile: 
+         path: /etc/environment
+         line: "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/"
+    
+    - name: Download, Install & Configure Maven
+      apt: 
+       name: maven
+       state: latest  
+
+    - name: Backup a ENV File 
+      copy: src=/etc/environment dest="/etc/environment_{{ date }}"
+ 
+    - lineinfile: 
+         path: /etc/environment
+         line: "MAVEN_HOME=/usr/share/maven/"
+
+    - name: ensure the jenkins apt repository key is installed
+      apt_key: url=https://pkg.jenkins.io/debian-stable/jenkins.io.key state=present
+
+    - name: ensure the repository is configured
+      apt_repository: repo='deb https://pkg.jenkins.io/debian-stable binary/' state=present
+
+    - name: Update Repository
+      apt: update_cache=yes
+
+    - name: Download and Install
+      apt: name=jenkins state=latest
+ 
+    - name: Ensue Jenkins is Enabled at boot level and Running
+      service: name=jenkins state=started
+...

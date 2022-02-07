@@ -1,0 +1,11 @@
+Agenda :
+
+Ansible :
+
+    - Tomcat
+    - Jenkins
+    - SonarQube
+    - Jfrog
+    - Nagios
+
+Q?
