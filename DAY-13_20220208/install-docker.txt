@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Setup Hostname 
+hostnamectl set-hostname "docker.eficens.com" 
+
+# Configure Hostname unto hosts file 
+echo "`hostname -I | awk '{ print $1}'` `hostname`" >> /etc/hosts 
+
+# Update Ubuntu Operating System Repository
+sudo apt-get update
+
+# Install Docker on Ubuntu Server 
+sudo apt-get install docker.io -y 
+
