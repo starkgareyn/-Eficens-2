@@ -1,0 +1,24 @@
+Agenda :
+
+Containerisation Technology :
+    - Docker
+
+Container Orchestration Technology :
+    - Kubernetes 
+
+Q?
+
+
+Tasks:
+
+1. Bake Dockefile as per build services :
+    - webserver
+    - dbserver
+    - jenkins
+    - jfrog
+    - sonarqube
+    - tomcat
+
+https://docs.docker.com/samples/django/
+
+
