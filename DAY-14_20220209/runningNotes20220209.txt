@@ -21,4 +21,32 @@ Tasks:
 
 https://docs.docker.com/samples/django/
 
+https://hub.docker.com/
+
+https://docs.docker.com/engine/reference/commandline/cli/
+
+https://docs.docker.com/engine/reference/commandline/ps/
+
+https://docs.docker.com/engine/reference/commandline/images/
+
+https://docs.docker.com/engine/reference/commandline/run/
+
+https://docs.docker.com/engine/reference/commandline/exec/
+
+https://docs.docker.com/engine/reference/commandline/system/
+
+https://docs.docker.com/engine/reference/builder/
+
+https://docs.docker.com/engine/reference/commandline/login/
+
+https://docs.docker.com/engine/reference/commandline/push/
+
+https://docs.docker.com/get-started/
+
+https://docs.docker.com/samples/django/
+
+https://docs.docker.com/engine/reference/commandline/compose_build/
+
+https://docs.docker.com/engine/reference/commandline/compose_images/
+
 
