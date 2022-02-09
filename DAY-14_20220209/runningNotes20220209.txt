@@ -1,3 +1,5 @@
+DAY-14 : https://s3.amazonaws.com/eficens.awsdevops/DAY-14_20220209/zoom_0.mp4
+
 Agenda :
 
 Containerisation Technology :
