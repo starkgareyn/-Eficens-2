@@ -1,0 +1,41 @@
+Agenda  :
+
+Create k8s Cluster and Deploy a Simple WebServer
+
+Q?
+
+IPV4 :
+
+5 Clasess :
+
+A 10.0.0.0
+B 172.16.0.0 - 172.31.0.0
+C 192.168.0.0
+
+
+D
+E 
+
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 172.31.43.139:6443 --token 4blstv.92wmoupsqtacadtr --discovery-token-ca-cert-hash sha256:b6bc35031745ff83ec375d7cfac792a49ed24b0584e02cee99ed78b2e2808d6a 
+    
+
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+
