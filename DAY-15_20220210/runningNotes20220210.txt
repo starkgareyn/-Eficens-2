@@ -1,3 +1,5 @@
+DAY-15 : https://s3.amazonaws.com/eficens.awsdevops/DAY-15_20220210/zoom_0.mp4
+
 Agenda  :
 
 Create k8s Cluster and Deploy a Simple WebServer
