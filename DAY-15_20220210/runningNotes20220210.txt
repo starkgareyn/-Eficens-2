@@ -41,3 +41,7 @@ kubeadm join 172.31.43.139:6443 --token 4blstv.92wmoupsqtacadtr --discovery-toke
 
 kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
 
+
+ubuntu@k8s-controller:~$ kubeadm token create --print-join-command
+kubeadm join 172.31.43.139:6443 --token pfbw1s.39cx0rmmac6rz7p8 --discovery-token-ca-cert-hash sha256:b6bc35031745ff83ec375d7cfac792a49ed24b0584e02cee99ed78b2e2808d6a 
+
